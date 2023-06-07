@@ -21,7 +21,7 @@ git clone https://github.com/benjivrd/nginx-domain-tools.git
 ```bash
 cd nginx-domain-tools
 ```
-3). Ajouter les droits d'écriture et de lecture pour éxecuter les scripts
+3. Ajouter les droits d'écriture et de lecture pour éxecuter les scripts
 ```bash
 sudo chmod +x add.sh delete.sh
 ```
