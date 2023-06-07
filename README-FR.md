@@ -7,7 +7,14 @@ Ce référentiel contient des scripts Bash pour faciliter la configuration et la
 Avant d'utiliser ces scripts, assurez-vous d'avoir installé les éléments suivants :
 
 - [Nginx](https://nginx.org/) - Un serveur web populaire et performant.
+```bash
+sudo apt update
+sudo apt install nginx
+```
 - [Certbot](https://certbot.eff.org/) - Un outil pour générer et gérer des certificats SSL/TLS Let's Encrypt.
+ ```bash
+sudo apt install certbot python3-certbot-nginx
+```
 
 Assurez-vous également d'avoir les droits d'administrateur sur votre système pour exécuter les scripts avec succès.
 
