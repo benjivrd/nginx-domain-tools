@@ -75,7 +75,6 @@ configure_nginx() {
   echo -e "${YELLOW}Configuring the Nginx server...${NC}"
   {
     echo "server {"
-    echo "    listen 80;"
     echo "    listen 443 ssl;"
     echo "    server_name $domain;"
     echo "    root /var/www/$domain;"
