@@ -1,7 +1,7 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/benjivrd/nginx-domain-tools/blob/main/README.md)
-[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/benjivrd/nginx-domain-tools/blob/main/README-FR.md)
-[![fr](https://img.shields.io/github/downloads/benjivrd/nginx-domain-tools/total)](https://img.shields.io/github/downloads/benjivrd/nginx-domain-tools/total)
-[![fr](https://img.shields.io/github/commit-activity/w/benjivrd/nginx-domain-tools)](https://img.shields.io/github/downloads/benjivrd/nginx-domain-tools/total)
+[![en](https://img.shields.io/badge/lang-en-red.svg?color=blue&style=for-the-badge)](https://github.com/benjivrd/nginx-domain-tools/blob/main/README.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg?color=red&style=for-the-badge)](https://github.com/benjivrd/nginx-domain-tools/blob/main/README-FR.md)
+[![fr](https://img.shields.io/github/commit-activity/w/benjivrd/nginx-domain-tools?color=yellow&style=for-the-badge)](https://img.shields.io/github/downloads/benjivrd/nginx-domain-tools/total)
+[![fr](https://img.shields.io/github/commit-activity/w/benjivrd/nginx-domain-tools?color=green&style=for-the-badge)](https://img.shields.io/github/downloads/benjivrd/nginx-domain-tools/total)
 
 # Nginx Management Scripts
 
