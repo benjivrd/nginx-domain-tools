@@ -1,60 +1,65 @@
-# Scripts de gestion de Nginx
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/benjivrd/nginx-domain-tools/blob/main/README.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](https://github.com/benjivrd/nginx-domain-tools/blob/main/README-FR.md)
 
-Ce référentiel contient des scripts Bash pour faciliter la configuration et la gestion des sites web avec Nginx. Les scripts automatisent certaines tâches courantes telles que la création de nouveaux sites, l'ajout de certificats SSL et la suppression de sites existants.
+# Nginx Management Scripts
 
-## Prérequis
+This repository contains Bash scripts to facilitate the configuration and management of websites with Nginx. The scripts automate some common tasks such as creating new sites, adding SSL certificates, and deleting existing sites.
 
-Avant d'utiliser ces scripts, assurez-vous d'avoir installé les éléments suivants :
+## Prerequisites
 
-- [Nginx](https://nginx.org/) - Un serveur web populaire et performant.
-- [Certbot](https://certbot.eff.org/) - Un outil pour générer et gérer des certificats SSL/TLS Let's Encrypt.
+Before using these scripts, make sure you have installed the following:
 
-Assurez-vous également d'avoir les droits d'administrateur sur votre système pour exécuter les scripts avec succès.
+- [Nginx](https://nginx.org/) - A popular and high-performance web server.
+- [Certbot](https://certbot.eff.org/) - A tool for generating and managing Let's Encrypt SSL/TLS certificates.
+
+Also, ensure that you have administrator rights on your system to successfully execute the scripts.
 
 ## Installation
 
-1. Clonez ce référentiel sur votre machine locale :
+1. Clone this repository to your local machine:
+
 ```bash
-git clone https://github.com/benjivrd/nginx-domain-tools.git 
+git clone https://github.com/benjivrd/nginx-domain-tools.git
 ```
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory:
+
 ```bash
 cd nginx-domain-tools
 ```
-3. Ajouter les droits d'écriture et de lecture pour éxecuter les scripts
+3. Add read and execute permissions to the scripts:
+
 ```bash
 sudo chmod +x add.sh delete.sh
 ```
-## Utilisation
+## Usage
 
-### Configuration d'un nouveau site web
+### Configuring a New Website
 
-1. Exécutez le script `add.sh` :
+1. Run the `add.sh` script.
 
-2. Choisissez le mode correspondant à votre type de site web :
-- Mode Single Page Application : Utilisez cette option si vous développez une application à page unique.
-- Mode Site Web Classique : Choisissez cette option si vous avez un site web traditionnel avec plusieurs pages.
-- Mode API : Sélectionnez cette option si vous avez une API à exposer.
+2. Choose the mode that corresponds to your type of website:
+   - Single Page Application Mode: Use this option if you are developing a single-page application.
+   - Classic Website Mode: Choose this option if you have a traditional website with multiple pages.
+   - API Mode: Select this option if you have an API to expose.
 
-3. Suivez les instructions à l'écran pour fournir les informations nécessaires, telles que le nom de domaine et éventuellement le port de l'API.
+3. Follow the on-screen instructions to provide the necessary information, such as the domain name and optionally the API port.
 
-4. Une fois la configuration terminée, le script créera les dossiers nécessaires, générera un certificat SSL à l'aide de Certbot et configurera Nginx en conséquence.
+4. Once the configuration is complete, the script will create the necessary folders, generate an SSL certificate using Certbot, and configure Nginx accordingly.
 
-### Suppression d'un site web existant
+### Deleting an Existing Website
 
-1. Exécutez le script `delete.sh` :
+1. Run the `delete.sh` script.
 
+2. Choose the domain name you want to delete from the available options.
 
-2. Choisissez le nom de domaine que vous souhaitez supprimer parmi les options disponibles.
+3. Confirm the deletion when prompted.
 
-3. Confirmez la suppression lorsque vous y êtes invité.
-
-> **Remarque**: Cette opération supprimera le dossier du site web, les fichiers de configuration de Nginx et le certificat SSL associé.
+> **Note**: This operation will delete the website folder, Nginx configuration files, and the associated SSL certificate.
 
 ## Contributions
 
-Les contributions sont les bienvenues ! Si vous avez des suggestions d'améliorations, des correctifs ou de nouvelles fonctionnalités à ajouter, n'hésitez pas à ouvrir une demande de fusion (pull request) ou à signaler un problème (issue).
+Contributions are welcome! If you have any suggestions for improvements, fixes, or new features to add, feel free to open a pull request or raise an issue.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d'informations.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
