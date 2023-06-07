@@ -14,12 +14,16 @@ Assurez-vous également d'avoir les droits d'administrateur sur votre système p
 ## Installation
 
 1. Clonez ce référentiel sur votre machine locale :
-```shell
+```bash
 git clone https://github.com/benjivrd/nginx-domain-tools.git 
 ```
 2. Accédez au répertoire du projet :
-```shell
+```bash
 cd nginx-domain-tools
+```
+3). Ajouter les droits d'écriture et de lecture pour éxecuter les scripts
+```bash
+sudo chmod +x add.sh delete.sh
 ```
 ## Utilisation
 
