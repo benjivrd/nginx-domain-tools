@@ -10,7 +10,14 @@ This repository contains Bash scripts to facilitate the configuration and manage
 Before using these scripts, make sure you have installed the following:
 
 - [Nginx](https://nginx.org/) - A popular and high-performance web server.
+```bash
+sudo apt update
+sudo apt install nginx
+```
 - [Certbot](https://certbot.eff.org/) - A tool for generating and managing Let's Encrypt SSL/TLS certificates.
+```bash
+sudo apt install certbot python3-certbot-nginx
+```
 
 Also, ensure that you have administrator rights on your system to successfully execute the scripts.
 
