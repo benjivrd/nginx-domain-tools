@@ -26,7 +26,7 @@ git clone https://github.com/benjivrd/nginx-domain-tools.git
 ```
 2. Accédez au répertoire du projet :
 ```bash
-cd nginx-domain-tools
+cd nginx-domain-tools/lib
 ```
 3. Ajouter les droits d'écriture et de lecture pour éxecuter les scripts
 ```bash
