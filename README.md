@@ -33,7 +33,7 @@ git clone https://github.com/benjivrd/nginx-domain-tools.git
 2. Navigate to the project directory:
 
 ```bash
-cd nginx-domain-tools
+cd nginx-domain-tools/lib
 ```
 3. Add read and execute permissions to the scripts:
 
