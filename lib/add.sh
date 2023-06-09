@@ -50,7 +50,7 @@ configure_nginx() {
   fi
 
   echo -e "${YELLOW}Creating the configuration file for $domain...${NC}"
-  if touch $domain; then
+  if touch ../cache/$domain; then
     echo -e "${GREEN}Configuration file created successfully.${NC}"
   else
     echo -e "${RED}Error creating the configuration file.${NC}"
@@ -148,7 +148,7 @@ case $mode in
 esac
 
 echo -e "${GREEN}Finishing...${NC}"
-if cp $domain /etc/nginx/sites-available/ && mv $domain /etc/nginx/sites-enabled/; then
+if cp ../cache/$domain /etc/nginx/sites-available/ && mv ../cache/$domain /etc/nginx/sites-enabled/; then
   echo -e "${GREEN}Nginx configuration file created successfully.${NC}"
 else
   echo -e "${RED}Error copying the Nginx configuration file.${NC}"
